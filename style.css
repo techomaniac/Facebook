@@ -1,0 +1,188 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --blue: #1d75fa;
+    --cream: #ebf0d6;
+    --gray: #E6E6E6;
+    --gFont: 'poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: poppins;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container header{
+    background: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container header p{
+    padding-left: 5px;
+    color: var(--blue);
+}
+
+.container .content{
+    padding: 20px;
+}
+
+.container .content h1 {
+    color: var(--blue);
+}
+
+.container .content form input {
+    padding: 15px 20px;
+    width: 60%;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+    background: #e0e0e0;
+    outline: none;
+}
+
+.container .content form button {
+    padding: 10px 15px;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--blue);
+    color: var(--white);
+}
+
+.container .content .forgetPass {
+    padding: 15px;
+}
+
+.container .content .forgetPass a {
+    color: var(--blue);
+}
+
+.container .content .orSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container .content .orSection hr{
+    transform: rotate(90deg);
+}
+
+.container .content .orSection p{
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.container .content .orSection .line1{
+    left: 5px;
+    background: #e0e0e0;
+    width: 23%;
+    height: 2px;
+}
+
+.container .content .orSection .line2{
+    left: 5px;
+    background: #e0e0e0;
+    width: 23%;
+    height: 2px;
+}
+
+.container .content .create-account{
+    width: 40%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.container .content .languages {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+.container .content .languages .left-side{
+    width: 50%;
+    display: block;
+    color: #e0e0e0;
+}
+
+.container .content .languages .right-side{
+    width: 50%;
+    display: block;
+    color: #e0e0e0;
+}
+
+.container .content .languages .left-side a{
+    color: #727272;
+}
+
+.container .content .languages .right-side a{
+    color: #727272;
+}
+
+.container .footer{
+    color: #727272;
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+    .container header p{
+        font-size: 12px;
+    }
+    .container .content h1 {
+        font-size: 24px;
+    }
+    
+    .container .content form input {
+        width: 99%;
+    }
+    .container .content form button {
+        width: 99%;
+    }
+    .container .content .orSection .line1{
+        width: 43%;
+    }
+    .container .content .orSection .line2{
+        width: 43%;
+    }
+    .container .content .create-account{
+        width: 86%;
+    }
+    .footer{
+        margin-bottom: 20px;
+    }
+}
