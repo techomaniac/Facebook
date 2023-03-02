@@ -1,1 +1,3 @@
 # Facebook
+
+This is an educational tutorial on how to create a Facebook scam page using html/css and smtp... 
